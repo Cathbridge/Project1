@@ -1,0 +1,22 @@
+<div>
+
+ <form style=" width: 100px">
+ 
+  <h2 >Booking form</h2>
+    <label >Name:</label>
+    <input type="text" name="Name" placeholder="Enter your name" [(ngModel)]="Name">
+      <label >Surname</label>
+      <input type="text" name="Surname" placeholder="Enter your surname"  [(ngModel)]="Surname">
+      <label >Email:</label>
+      <input type="text" name="Email" placeholder="Enter your email"  [(ngModel)]="Email">
+      <label >StartDate:</label>
+      <input type="date" name="StartDate"  [(ngModel)]="StartDate">
+      <label >EndDate:</label>
+      <input type="date" name="EndDate"  [(ngModel)]="EndDate">
+      <br>
+      <br> 
+      <input id="btnsubmit" type="submit" name="submit" (click)="onSubmit()">
+
+</form>
+
+</div>

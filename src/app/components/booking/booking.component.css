@@ -1,0 +1,33 @@
+label{
+    color: black;
+    float: left;
+	text-align: right;
+	margin-right: 15px;
+    width: 100px;
+    font: bold;
+    text-align: center;
+    
+}
+
+form{
+    border: solid 2px;
+    padding: 100px;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-right: 200px;
+    padding-bottom: 20px;
+    background-color: #d6e5f4;
+    margin-top: 130px;
+    margin-left: 40%;
+    z-index: 9999;
+    
+
+    
+}
+
+#btnsubmit{
+    padding : 7px;
+    border: 2px solid #333;
+    border-radius: 5px;
+   
+}
